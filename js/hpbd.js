@@ -133,7 +133,7 @@ var canvas = document.getElementById("canvas_confetti");
         heart.style.color = heartColorArr[parseInt(Math.random() * heartColorArr.length)];
   
         document.body.appendChild(heart);
-        $(heart).fadeOut(1000);
+        $(heart).fadeOut(500);
       })
 
     /* ------------------------------------- */
@@ -143,5 +143,7 @@ var canvas = document.getElementById("canvas_confetti");
           strings: ["Happy Birthday Mai Thị Như Phương (16-06-2021)", "Have a good day!", "Good luck in life!", "Best wishes for you!"],
           typeSpeed: 30,
           smartBackspace: true,
+          loop: true,
+          backDelay: 900
         });
       });
