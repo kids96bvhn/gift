@@ -140,7 +140,7 @@ var canvas = document.getElementById("canvas_confetti");
 
     $(function () {
         $("#txt").typed({
-          strings: ["Happy Birthday Mai Thị Như Phương (16-06-2021)", "Have a good day!", "Good luck in life!", "Best wishes for you!"],
+          strings: ["Happy Birthday Mai Thị Như Phương (16-06-2021)", "", "Have a good day!", "Good luck in life!", "Best wishes for you!"],
           typeSpeed: 30,
           smartBackspace: true,
           loop: true,
