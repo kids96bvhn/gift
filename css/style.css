@@ -1081,7 +1081,7 @@
   .birthday_container p {
     z-index: 1;
     position: absolute;
-    bottom: 70px;
+    bottom: 5%;
     font-weight: 500;
     font-size: 18px;
     margin: 0 auto;
